@@ -41,7 +41,7 @@ public class UserController {
 
 		model.addAttribute("users", apiService.getUsers(limit));
 
-		return "userList";
+		return "userlist";
 
 	}
 }
